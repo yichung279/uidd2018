@@ -1,0 +1,41 @@
+body {
+  background-color: #107050;
+  text-align:center;
+  font-size: 30px;
+  color: white;
+}
+#clock > p{
+  position: relative;
+  margin-left: -120px;
+}
+#num{
+  position: relative;
+  left: 80px;
+  top: 17px
+}
+#game {
+  position: relative;
+  left: 50%;
+  margin-left:-112px;
+  width: fit-content;
+  top: -90px
+}
+#row {  
+  height: 25px;
+}
+#dot {  
+  display: inline;
+  height: 25px;
+  width: 25px;
+}
+#trig{
+  display: none;
+}
+#head{
+  width:50px;
+  height: 50px;
+  border-radius: 50%;
+  position: relative;
+  top: 14px;
+}
+
