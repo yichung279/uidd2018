@@ -9,14 +9,14 @@
   </head>
   <body>
     <div id="clock"  >
-      <p class="time" @click='test()'>{{minutes_ten}}{{minutes_one}}:{{seconds_ten}}{{seconds_one}}</p>
+      <p class="time" >{{minutes_ten}}{{minutes_one}}:{{seconds_ten}}{{seconds_one}}</p>
     </div>
     <div id="game">
       <div id="num">
         <p >{{flag_count}}/{{mine_count}}</p>
       </div>
       <div id="row" v-for="line in map" >
-        <button  id='dot' v-for="dot in line" @click.left='detect({dot})' @click.right.prevent='mark({dot})'> 
+        <button  id='dot' v-for="dot in line" @click.left.prevent='detect({dot})' @click.right.prevent='mark({dot})'> 
           {{dot.show}}
           <i v-if='{dot}.dot.boom' class='bomb icon'></i>
           <i v-if='{dot}.dot.flaged' class='flag icon'></i>

@@ -18,10 +18,6 @@ var clock = new Vue({
       that.minutes_ten = Math.floor(that.distance / 600) 
     } , 1000)
   },
-  methods: {
-    test: function(){
-    }
-  }
 })
 
 
@@ -113,7 +109,6 @@ var game = new Vue({
         that.sweep(i+1, j+1)
       }else{
         that.checkGame()
-        console.log(that.mineAround(i,j))
         that.map[i][j].show = that.mineAround(i, j).toString()
         that.trig ++
       }

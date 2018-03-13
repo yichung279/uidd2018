@@ -1,0 +1,42 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
+h1, p{
+  font-family: 'Noto Sans TC', sans-serif;
+  z-index:1;
+  position: relative;
+  left:10rem;
+  top:10rem;
+}
+h1{
+  font-size: 70px;
+}
+body{
+  padding:0;
+  margin:0;
+}
+#container{
+  position:relative;
+  height: 46rem;
+  overflow: hidden;
+}
+#decoration{
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  height: 46rem;;
+  left:45%;
+  width: 20rem;
+  background-color: #e6f0ff;
+}
+#imgshape{
+  left:55%;
+  overflow: hidden;
+  position: absolute;
+  bottom: 0; 
+  width: 25rem;
+  height:35rem;
+}
+#imgshape > img{
+  position: relative;
+  left: -5rem;
+  width:35rem;
+}
