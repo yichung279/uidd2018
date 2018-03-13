@@ -1,12 +1,13 @@
+
 @import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
 h1, p{
   font-family: 'Noto Sans TC', sans-serif;
-  z-index:1;
   position: relative;
   left:10rem;
   top:10rem;
 }
 h1{
+  z-index:1;
   font-size: 70px;
 }
 body{
@@ -33,10 +34,65 @@ body{
   position: absolute;
   bottom: 0; 
   width: 25rem;
-  height:35rem;
+  height:33rem;
 }
 #imgshape > img{
   position: relative;
   left: -5rem;
   width:35rem;
+}
+.sidebar{
+  height: 46rem;
+  width: 5rem;
+  position: absolute;
+  top:0;
+  right: 0;
+  box-shadow:-1px 0px 0px 0px #a6a6a6;
+}
+.sidebar-item{
+  display:block;
+}
+.sidebar-top{
+  margin-top: 3rem;
+}
+.sidebar-90{
+  -webkit-transform: rotate(90deg); 
+  -moz-transform: rotate(90deg);
+} 
+.sidebar-link{
+  position: relative;
+  top: 5rem;
+}
+.sidebar-icon{
+  position: absolute;
+  bottom: 0;
+  right: 1.8rem;
+}
+.p-90{
+  position: absolute;
+  right: 0;
+  height: 5px;
+}
+.sidebar-icon > a{
+  margin-top:2rem;
+  margin-bottom:2rem;
+}
+a{
+  color: #808080;
+  text-decoration:none; 
+}
+#search{
+  position: absolute;
+  top: 6rem;
+  right: 8rem;
+}
+#arrleft{
+  position: absolute;
+  bottom: 6rem;
+  left: 10.1rem;
+}
+#arrright{
+  position: absolute;
+  bottom: 6rem;
+  left: 12rem;
 }
