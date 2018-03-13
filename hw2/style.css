@@ -3,12 +3,13 @@
 h1, p{
   font-family: 'Noto Sans TC', sans-serif;
   position: relative;
-  left:10rem;
+  z-index:1;
+  left:13rem;
   top:10rem;
 }
 h1{
-  z-index:1;
-  font-size: 70px;
+  font-size: 80px;
+  text-shadow: 2px 2px #d6d6d6;
 }
 body{
   padding:0;
@@ -24,12 +25,12 @@ body{
   top: 0;
   z-index: -1;
   height: 46rem;;
-  left:45%;
+  left:40%;
   width: 20rem;
   background-color: #e6f0ff;
 }
 #imgshape{
-  left:55%;
+  left:50%;
   overflow: hidden;
   position: absolute;
   bottom: 0; 
@@ -89,10 +90,10 @@ a{
 #arrleft{
   position: absolute;
   bottom: 6rem;
-  left: 10.1rem;
+  left: 13.1rem;
 }
 #arrright{
   position: absolute;
   bottom: 6rem;
-  left: 12rem;
+  left: 15rem;
 }
