@@ -1,15 +1,13 @@
-
 @import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
 h1, p{
   font-family: 'Noto Sans TC', sans-serif;
   position: relative;
   z-index:1;
-  left:13rem;
+  left:12rem;
   top:10rem;
 }
 h1{
   font-size: 80px;
-  text-shadow: 2px 2px #d6d6d6;
 }
 body{
   padding:0;
@@ -90,10 +88,10 @@ a{
 #arrleft{
   position: absolute;
   bottom: 6rem;
-  left: 13.1rem;
+  left: 12.1rem;
 }
 #arrright{
   position: absolute;
   bottom: 6rem;
-  left: 15rem;
+  left: 14rem;
 }
