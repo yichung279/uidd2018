@@ -1,0 +1,184 @@
+body{
+  font-family: Microsoft JhengHei;
+  margin:0;
+}
+.container{
+  overflow: hidden;
+  margin: 0;
+  width: 100vw;
+  height: 1000px;
+  background: url('asset/base.jpg') no-repeat center top; 
+  background-size: 1650px 1000px;
+}
+#sky{
+  width: 100vw;
+  height: 450px; 
+}
+#cloud1{
+  position: absolute;
+  top: 110px;
+  left: calc(50% - 360px);
+  width: 196px;
+  height: 59px;
+  background: url('asset/cloud/cloud1.png') center center; 
+  background-size: cover;
+} 
+#cloud2{
+  position: absolute;
+  top: 190px;
+  left: calc(50% - 430px);
+  width: 97px;
+  height: 29px;
+  background: url('asset/cloud/cloud2.png') center center; 
+  background-size: cover;
+} 
+#cloud3{
+  position: absolute;
+  top: 140px;
+  left: calc(50% + 180px);
+  width: 172px;
+  height: 52px;
+  background: url('asset/cloud/cloud3.png') center center; 
+  background-size: cover;
+} 
+#cloud4{
+  position: absolute;
+  top: 260px;
+  left: calc(50% + 680px);
+  width: 214px;
+  height: 64px;
+  background: url('asset/cloud/cloud4.png') center center; 
+  background-size: cover;
+}
+#sun1{
+  position: absolute;
+  left: calc(50% - 140px);
+  top: calc(180px - 140px);
+  width: 280px;
+  height: 280px;
+  background: url('asset/sun/sun1.png') center center; 
+  background-size: cover;
+}
+#sun2{
+  position: absolute;
+  left: calc(50% - 115.5px);
+  top: calc(180px - 115.5px);
+  width: 231px;
+  height: 231px;
+  background: url('asset/sun/sun2.png') center center; 
+  background-size: cover;
+}
+#sun3{
+  position: absolute;
+  left: calc(50% - 88px);
+  top: calc(180px - 88px);
+  width: 176px;
+  height: 176px;
+  background: url('asset/sun/sun3.png') center center; 
+  background-size: cover;
+}
+#sun4{
+  position: absolute;
+  left: calc(50% - 70.5px);
+  top: calc(180px - 70.5px);
+  width: 141px;
+  height: 141px;
+  background: url('asset/sun/sun4.png') center center; 
+  background-size: cover;
+}
+.flex{
+  position: relative;
+  top: 40px;
+  display: inline-flex;
+  flex-direction: row;
+}
+#train1, #train2, #train3{
+  position: relative;
+  display: inline-flex;
+  flex-direction: row;
+}
+.locomotive{
+  z-index: 2;
+  margin: 4px;
+  width: 290px;
+  height: 215px;
+  background: url('asset/train/locomotive.png') center center; 
+  background-size: cover;
+}
+.connection{
+  position: absolute;
+  left: 100px;
+  top:160px;
+  width: 1300px;
+  height: 9px;
+  background: url('asset/train/connection.png') center center; 
+  background-size: cover;
+}
+.car > a{
+  position: relative;
+  top: 118px;
+  left: 110px;
+  font-size: 15px;
+  color: #fff;
+  text-decoration:none;
+}
+.car{
+  width: 305px;
+  z-index: 1;
+  height: 215px;
+  margin: 4px;
+  background: url('asset/train/car.png') center center; 
+  background-size: cover;
+}
+#railway{
+  margin: 0;
+  position: absolute;
+  top: 709px;
+  width: 100vw;
+  height: 9px;
+  background: url('asset/train/rail.png') center center; 
+  background-size: cover;
+}
+button{
+ font-family: Microsoft JhengHei;
+  position: absolute;
+  top: 800px;
+  width: 240px;
+  height: 130px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 10%;
+  border: 0px;
+  font-size: 30px;
+  color: #fff;
+  z-index: 5;
+}
+button > a{
+  color: #fff;
+  text-decoration:none;
+}
+#b1{
+  left: calc(50vw - 450px);
+}
+#b2{
+  left: calc(50vw + 140px);
+}
+#cane1{
+  z-index: 3;
+  position: relative;
+  top: -70px;
+  left: -60px;
+  width: 280px;
+  height: 500px;
+  background: url('asset/cane/cane1.png') top center; 
+  background-size: cover;
+}
+#cane2{
+  z-index: 3;
+  position: relative;
+  top: -580px;
+  left: calc(100vw - 290px);
+  width: 280px;
+  height: 550px;
+  background: url('asset/cane/cane2.png') top left; 
+  background-size: cover;
+}
